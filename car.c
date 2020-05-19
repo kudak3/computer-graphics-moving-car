@@ -26,15 +26,15 @@ for(i=0;i<400;i++)
 
 void main(){
 
-	
 
-int x = 0; 
+int i,j;
+int x = 0;
 	int wheel_radius = 30,
 	arc_radius = 35,
 	rim_radius = 22 ;
 
 	int gd = DETECT,gm;
-	initgraph(&gd,&gm,NULL);
+	initgraph(&gd,&gm,"c:\\tc\\bgi");
 
 	outtextxy(25,10,"Kudakwashe Kuzvindiwana N0162653E");
 
@@ -44,7 +44,7 @@ int x = 0;
 
     //1st traingle
 	setcolor(GREEN);
-	
+
 	line(0,150,100,75);
 	line(100,75,200,150);
 
@@ -55,7 +55,7 @@ int x = 0;
 
 	//3rd triangle
 	setcolor(GREEN);
-	
+
 	line(350,130,450,75);
 	line(450,75,550,150);
 
@@ -63,26 +63,26 @@ int x = 0;
 	setcolor(GREEN);
 	line(525,130,600,75);
 	line(600,75,750,180);
-    
+
 	//bottom of mountain
 	line(0,150,750,150);
 
 	floodfill(100,136,WHITE); //
-	floodfill(275,136,WHITE); 
+	floodfill(275,136,WHITE);
 	floodfill(450,136,WHITE);
-	floodfill(600,136,WHITE); 
+	floodfill(600,136,WHITE);
 
-	
 
- 
 
-for (int i = 0,j=0; i <= 500; i++){
+
+
+for (i = 0,j=0; i <= 500; i++){
 putpixel(200,300,15);
 }
-	 
-	
 
-	for (int i = 0,j=0; i <= 500; i++,j++)
+
+
+	for (i = 0,j=0; i <= 500; i++,j++)
 	{
 			int x1 = 150, y1 = 110, x2 = 400, y2 = 100;
 	int x3 = 475, y3 = 175, x4 = 600, y4 = 200;
@@ -105,7 +105,7 @@ putpixel(200,300,15);
 		x9 = x9+i;
 		x10 = x10+i;
 
-		
+
 
 	//roof
 	line(x1,y1,x2,y2);
@@ -168,7 +168,7 @@ putpixel(200,300,15);
 	line(x10+80,y6,x1+50,y1+10);
 
 	//wheels
-	//front 
+	//front
 	arc(x6-35,y5,180,0,arc_radius);
 	circle(x6-35,y5,wheel_radius);
 	circle(x6-35,y5,rim_radius);
@@ -180,19 +180,16 @@ putpixel(200,300,15);
 	circle(x9+35,y5,rim_radius);
 	circle(x9+35,y5,10);
 	circle(x9+35,y5,5);
-	
+
 	 //Draw Ground
    Rain(x);
    x=(x+2)%ScreenWidth;
 
-	 	 cleardevice();
-	
+		 cleardevice();
+
 	}
 
-
-
-	delay(1000);
-	
-
+	getch();
 	closegraph();
+
 }
