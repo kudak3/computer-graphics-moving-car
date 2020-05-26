@@ -12,8 +12,9 @@ This script draws a moving car with  a background on your screen
 
 ## Screenshots
 
-<img height='250px' src="screenshots/car.png" title="car design"> 
-<img height='250' src="screenshots/car1.png" title="final car design"><img src="screenshots/treeandclouds.png">
+<img height='250' src="screenshots/car.png" title="car design"> 
+<img height='250' src="screenshots/car1.png" title="final car design">
+<img height='250' src="screenshots/treeandclouds.png">
 <img src="screenshots/finalitem.png">
 
 
