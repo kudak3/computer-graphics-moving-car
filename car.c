@@ -12,20 +12,7 @@
 
 int ldisp=0;
 
-void Rain(int x)
-{
-int i,rx,ry;
-for(i=0;i<400;i++)
-{
- rx=rand() % ScreenWidth;
- ry=rand() % ScreenHeight;
- if(ry<GroundY-4)
- {
-  if(ry<GroundY-120 || (ry>GroundY-120 && (rx<x-20 || rx>x+60)))
-  line(rx,ry,rx+0.5,ry+4);
- }
-}
-}
+
 
 void drawTree(char op,int x,int y){
 
