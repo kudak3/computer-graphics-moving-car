@@ -13,3 +13,8 @@ This script draws a moving car with  a background on your screen
 ## Screenshots
 
 <img src="screenshots/car.png"> 
+
+## Credits
+
+The code for a lorry and the hut is taken and refactored from (https://see-programming.blogspot.com/)
+
