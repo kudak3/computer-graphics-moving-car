@@ -8,13 +8,14 @@ This script draws a moving car with  a background on your screen
 - This project will only work on a windows pc as it uses dos.h header file for colors
 - Download and install turbo c++ if you dont have it and  the file car.c in turbo C++ compile and run enjoy the fruits of my labour
 - if u have any other c compiler ensure that it is compatible with graphics.h ,dosh.h and conio.h
-- do no forget to change """ initgraph(&gd,&gm,"c:\\tc\\bgi"); """ to point to your graphics.h location 
+- do no forget to change ` initgraph(&gd,&gm,"c:\\tc\\bgi"); ` to point to your graphics.h location 
 
 ## Screenshots
 
-<img height='170' src="screenshots/car.png" title="car design"> 
-<img height='170' src="screenshots/car1.png" title="final car design">
-<img height='170' src="screenshots/treeandclouds.png">
+| Initial Design of Car             |  Making Car Move          |   Designing the scenery |
+
+| <img height='170' src="screenshots/car.png" title="car design">  |  <img height='170' src="screenshots/car1.png" title="final car design">  |  <img height='170' src="screenshots/treeandclouds.png"> |
+ 
 <img src="screenshots/finalitem.png">
 
 
